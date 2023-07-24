@@ -1,0 +1,44 @@
+body{ 
+    background:  linear-gradient(120deg, #3ca7ee, #9b408f );
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+table{
+    border-style: none;
+}
+th, td{
+    border-style: none;
+    background-color: white;
+    border-collapse: collapse;
+    color: black;
+    font-size: larger;
+}
+#edit{
+    background-color: rgb(219, 219, 163);
+    color: black;
+    padding: 40px;
+    border: none;
+    outline: none;
+    font-size: large;
+}
+#delete{
+    
+    background-color: rgb(217, 165, 165);
+    color: white;
+    padding: 40px;
+    border: none;
+    font-size: large;
+}
+#delete:hover{
+    cursor: pointer;
+}
+#edit:hover{
+    cursor: pointer;
+}
+h1{
+    color: white;
+}
+

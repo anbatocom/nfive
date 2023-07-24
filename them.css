@@ -1,0 +1,48 @@
+body{ 
+    background:  linear-gradient(120deg, #3ca7ee, #9b408f );
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-size: larger;
+}
+table{
+    border-style: none;
+    height: 400px;
+}
+th, td{
+    border-style: none;
+    background-color: white;
+    border-collapse: collapse;
+    color: black;
+    font-size: larger;
+}
+label{
+    color: antiquewhite;
+    
+}
+input{
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    border-radius: 30px;
+    height: 60px;
+    padding-left: 10px;
+    width: 300px;
+    font-family: 'Comfortaa', cursive;
+}
+button{
+    font-family: 'Comfortaa', cursive;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-top: 10px;
+    height: 50px;
+}
+h1{
+    font-family: 'Comfortaa', cursive;  
+    color: white;
+}
+
+

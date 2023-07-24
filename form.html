@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Gemunu+Libre:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <div class="container">
+            <h1 id="tieude">Login</h1>
+            <form action="login.php" method='get'></form>
+            <div class="form-input">
+                <input id="username" onblur="blurFunc()" type="text" placeholder="Username"  name="tai_khoan">
+                <small></small>
+            </div>
+
+            <div class="form-input">
+                <input id="email" onfocus="focusFunc()" type="email" placeholder="Email" name="email">
+                <small></small>
+            </div>
+
+            <div class="form-input">
+                <input id="password"  type="Password" placeholder="Password" name="matkhau">
+                <small></small>
+            </div>
+            <button type="submit" id="submit-btn">Login</button>
+            </form>
+        </div>
+    </form>
+</body>
+
+</html>
